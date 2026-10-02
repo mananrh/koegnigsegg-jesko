@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koenigsegg Gemera</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Fixed 3D Canvas Background -->
+    <div id="canvas-container"></div>
+    
+    <!-- Scrolling UI Content -->
+    <main class="scroll-container">
+      
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">KOENIGSEGG</div>
+        <ul class="nav-links">
+          <li><a href="#">Models</a></li>
+          <li><a href="#">Innovation</a></li>
+          <li><a href="#">Ownership</a></li>
+        </ul>
+      </nav>
+
+      <!-- Section 1: Hero -->
+      <section class="section hero">
+        <div class="content left stagger-anim">
+          <h1>GEMERA</h1>
+          <p class="subtitle">The ultimate Mega-GT.</p>
+          <p>Unprecedented performance meets extreme practicality. The Gemera seats four adults comfortably with space for their carry-on luggage, while delivering 1700 bhp.</p>
+        </div>
+      </section>
+
+      <!-- Section 2: Powertrain -->
+      <section class="section powertrain">
+        <div class="content right stagger-anim">
+          <h2>1700 BHP</h2>
+          <p class="subtitle">Hybrid Mastery.</p>
+          <p>Powered by the Tiny Friendly Giant (TFG) engine coupled with revolutionary electric motors, creating an astonishing 0-100 km/h in 1.9 seconds.</p>
+          <div class="stats">
+            <div class="stat-box">
+              <h3>1.9s</h3>
+              <span>0-100 km/h</span>
+            </div>
+            <div class="stat-box">
+              <h3>400+</h3>
+              <span>Top Speed (km/h)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Interior -->
+      <section class="section interior">
+        <div class="content left stagger-anim">
+          <h2>Uncompromised Luxury</h2>
+          <p class="subtitle">Four Seats. Infinite Thrills.</p>
+          <p>The Gemera features eight cupholders (four heated and four cooled), front and rear infotainment displays, and perfectly sculpted memory-foam seats for true Grand Touring.</p>
+        </div>
+      </section>
+
+      <!-- Section 4: Design -->
+      <section class="section design">
+        <div class="content right stagger-anim">
+          <h2>Aerodynamic Elegance</h2>
+          <p class="subtitle">Form Driven by Function.</p>
+          <p>Every line and curve of the Gemera is designed to cut through the air efficiently while maintaining the classic, aggressive Koenigsegg silhouette.</p>
+        </div>
+      </section>
+
+      <!-- Section 5: Footer/CTA -->
+      <section class="section cta">
+        <div class="content center stagger-anim">
+          <h2>Experience the Gemera</h2>
+          <button class="btn">CONFIGURE YOURS</button>
+        </div>
+      </section>
+
+    </main>
+
+    <script type="module" src="/main.js?v=3"></script>
+  </body>
+</html>
